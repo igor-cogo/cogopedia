@@ -17,3 +17,7 @@ Os verbetes seguem os critérios da [Metodologia](metodologia.md). Sempre que a 
 ## Correções e sugestões
 
 Encontrou um erro, conhece uma fonte melhor ou fala alguma das línguas tratadas aqui? Sugestões são bem-vindas pela página do projeto no GitHub.
+
+## Licença
+
+O texto da Cogopedia está sob a licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br), a mesma da Wikipédia. Você pode copiar, adaptar e reaproveitar o conteúdo, inclusive comercialmente, desde que cite a Cogopedia e publique o resultado sob a mesma licença.

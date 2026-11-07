@@ -4,7 +4,7 @@ site_url: https://igor-cogo.github.io/cogopedia/
 repo_url: https://github.com/igor-cogo/cogopedia
 repo_name: igor-cogo/cogopedia
 edit_uri: ""
-copyright: Cogopedia · conteúdo autoral; fontes citadas em cada verbete
+copyright: Cogopedia · texto sob licença <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br">CC BY-SA 4.0</a>; fontes citadas em cada verbete
 
 theme:
   name: material
