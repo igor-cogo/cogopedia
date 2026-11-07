@@ -1,0 +1,39 @@
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: #5b3a1e;
+  --md-primary-fg-color--light: #7a5332;
+  --md-primary-fg-color--dark: #3f2812;
+  --md-accent-fg-color: #b5651d;
+  --md-default-bg-color: #fbf8f2;
+  --cg-box: #f3ece0;
+  --cg-line: #d9cbb3;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #3a2a1c;
+  --md-accent-fg-color: #e0a060;
+  --md-default-bg-color: #1c1814;
+  --md-typeset-a-color: #e3a86a;
+  --cg-box: #27211b;
+  --cg-line: #4a3d30;
+}
+.md-typeset h1 { font-weight: 600; color: var(--md-default-fg-color); }
+.md-typeset h2 { border-bottom: 1px solid var(--cg-line); padding-bottom: .2em; }
+
+/* ficha (infobox) */
+.md-typeset table.infobox {
+  float: right; clear: right; width: 18rem; max-width: 100%;
+  margin: 0 0 1.2em 1.5em; font-size: .72rem; display: table;
+  background: var(--cg-box); border: 1px solid var(--cg-line); border-radius: 4px;
+}
+.md-typeset table.infobox caption {
+  caption-side: top; font-size: 1.05rem; padding: .5em; text-align: center;
+  background: var(--md-primary-fg-color); color: #fff; border-radius: 4px 4px 0 0;
+}
+.md-typeset table.infobox th { text-align: left; vertical-align: top; width: 42%; padding: .35em .6em; background: transparent; }
+.md-typeset table.infobox td { padding: .35em .6em; }
+.md-typeset table.infobox strong { font-weight: 600; }
+@media (max-width: 44em) {
+  .md-typeset table.infobox { float: none; width: 100%; margin: 0 0 1.2em 0; }
+}
+
+.md-typeset .hero { text-align: center; padding: 1.5rem 0 1rem; }
+.md-typeset .hero h1 { font-size: 2.6rem; margin-bottom: .2em; }

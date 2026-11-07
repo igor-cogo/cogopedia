@@ -1,0 +1,78 @@
+site_name: Cogopedia
+site_description: Línguas e nomes de lugares do Brasil
+site_url: https://igor-cogo.github.io/cogopedia/
+repo_url: https://github.com/igor-cogo/cogopedia
+repo_name: igor-cogo/cogopedia
+edit_uri: ""
+copyright: Cogopedia · conteúdo autoral; fontes citadas em cada verbete
+
+theme:
+  name: material
+  language: pt-BR
+  font:
+    text: Source Serif 4
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle: {icon: material/weather-night, name: Modo escuro}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle: {icon: material/weather-sunny, name: Modo claro}
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - assets/cogopedia.css
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Início: index.md
+  - Línguas indígenas:
+      - linguas/index.md
+      - Tronco Macro-Jê:
+          - linguas/macro-je/index.md
+          - Família Jê:
+              - linguas/macro-je/je/index.md
+              - Panará: linguas/macro-je/je/panara.md
+              - Kayapó: linguas/macro-je/je/kayapo.md
+              - Apinajé: linguas/macro-je/je/apinaje.md
+              - Timbira: linguas/macro-je/je/timbira.md
+              - Suyá: linguas/macro-je/je/suya.md
+              - Xavante: linguas/macro-je/je/xavante.md
+              - Akroá: linguas/macro-je/je/akroa.md
+              - Xerente: linguas/macro-je/je/xerente.md
+              - Xakriabá: linguas/macro-je/je/xakriaba.md
+              - Kaingang: linguas/macro-je/je/kaingang.md
+              - Xokleng: linguas/macro-je/je/xokleng.md
+              - Guaianá: linguas/macro-je/je/guaiana.md
+              - Ingain: linguas/macro-je/je/ingain.md
+  - Toponímia do RS: toponimia/index.md
+  - Metodologia: metodologia.md
+  - Sobre: sobre.md
